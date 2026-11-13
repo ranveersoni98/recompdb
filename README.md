@@ -16,6 +16,10 @@ This is an index, not a place to host game files. Please don’t submit copyrigh
 
 Pull requests that change database entries are automatically checked against [the database schema](.github/schemas/db-entry.schema.json). Please keep entries factual and link to authoritative project pages where possible. Update your entry when platform support or compatibility changes.
 
+## Licensing
+
+Repository code and tooling are available under the [MIT License](LICENSE). Database entries in `db/` are dedicated to the public domain under [CC0 1.0](db/LICENSE), so they can be reused without requiring attribution. This applies only to content contributors have the right to license; it does not grant rights to game assets, trademarks, or third-party material.
+
 ## The future
 
 For now, this repository keeps the directory simple and easy to contribute to. Once it has around 20 entries, the plan is to turn the database into its own dedicated website.
