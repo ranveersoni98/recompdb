@@ -28,7 +28,7 @@
         "architecture": "x86_64"
       }
     ],
-    "notes": "The whole game is playable from start to finish. Also runs on Linux and the Steam Deck through Proton; a native Linux and Steam Deck version is in development."
+    "notes": "The whole game is playable from start to finish. A native Linux and Steam Deck version is also available (./setup.sh, ./play.sh); this database lists only Windows and macOS as platforms."
   },
   "requirements": [
     "Windows 10 or 11, 64-bit",
