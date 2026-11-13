@@ -18,7 +18,7 @@ Pull requests that change database entries are automatically checked against [th
 
 ## Licensing
 
-Repository code and tooling are available under the [MIT License](LICENSE). Database entries in `db/` are dedicated to the public domain under [CC0 1.0](db/LICENSE), so they can be reused without requiring attribution. This applies only to content contributors have the right to license; it does not grant rights to game assets, trademarks, or third-party material.
+ Database entries in `db/` are dedicated to the public domain under [CC0 1.0](LICENSE), so they can be reused without requiring attribution. This applies only to content contributors have the right to license; it does not grant rights to game assets, trademarks, or third-party material.
 
 ## The future
 
