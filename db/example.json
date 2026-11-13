@@ -1,0 +1,40 @@
+{
+  "game_name": "Example Game",
+  "port_name": "Example Recompiled Port",
+  "description": "A short description of the recompiled port.",
+  "repository_url": "https://github.com/example/example-port",
+  "project_url": null,
+  "download_url": null,
+  "platforms": [
+    "windows",
+    "macos"
+  ],
+  "supported_game_versions": [
+    "Example version or range"
+  ],
+  "storefronts": [
+    {
+      "name": "Steam",
+      "id": "123456"
+    }
+  ],
+  "status": "active",
+  "compatibility": {
+    "status": "working",
+    "tested_environments": [
+      {
+        "platform": "windows",
+        "version": "11",
+        "architecture": "x86_64",
+        "min_fps": 0
+      }
+    ],
+    "notes": null
+  },
+  "requirements": [],
+  "installation_notes": null,
+  "license": null,
+  "maintainers": [],
+  "last_verified": null,
+  "notes": null
+}

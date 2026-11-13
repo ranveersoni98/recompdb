@@ -1,0 +1,25 @@
+# Recompiled Ports Database
+
+A community-maintained directory of recompiled game ports. People are making ports for all kinds of games and platforms, but information about them can be scattered and hard to keep track of. This project is a place to collect those projects in one organized, searchable format.
+
+## What belongs here?
+
+Add an entry for a recompiled port you made or found. Include the project’s source repository, the platforms it supports, the game versions it works with, and any useful identifiers or setup notes. Entries should point to the original project and give credit to its maintainers.
+
+This is an index, not a place to host game files. Please don’t submit copyrighted game assets, executables, or other files you don’t have permission to share.
+
+## Adding a port
+
+1. Copy [`db/example.json`](db/example.json) and fill in the details.
+2. Save it as a new, descriptive JSON file in `db/` (for example, `db/my-game-port.json`).
+3. Open a pull request. Keep the fields from the example; if a detail is unknown or doesn’t apply, use `null` or an empty array rather than guessing.
+
+Pull requests that change database entries are automatically checked against [the database schema](.github/schemas/db-entry.schema.json). Please keep entries factual and link to authoritative project pages where possible. Update your entry when platform support or compatibility changes.
+
+## The future
+
+For now, this repository keeps the directory simple and easy to contribute to. Once it has around 20 entries, the plan is to turn the database into its own dedicated website.
+
+## Disclaimer
+
+This is an independent community project and is not affiliated with any game publisher, storefront, or platform holder. Game names and trademarks belong to their respective owners.
