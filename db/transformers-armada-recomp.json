@@ -14,6 +14,7 @@
     "Europe (SLES-52388), experimental"
   ],
   "storefronts": [],
+  "ai_ported": true,
   "status": "active",
   "compatibility": {
     "status": "working",

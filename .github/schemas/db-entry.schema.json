@@ -13,6 +13,7 @@
     "platforms",
     "supported_game_versions",
     "storefronts",
+    "ai_ported",
     "status",
     "compatibility",
     "requirements",
@@ -77,6 +78,9 @@
           }
         }
       }
+    },
+    "ai_ported": {
+      "type": "boolean"
     },
     "status": {
       "type": "string",

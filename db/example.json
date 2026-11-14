@@ -19,6 +19,7 @@
       "id": "123456"
     }
   ],
+  "ai_ported": false,
   "status": "active",
   "compatibility": {
     "status": "working",
