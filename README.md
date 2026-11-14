@@ -4,7 +4,7 @@ A community-maintained directory of recompiled game ports. People are making por
 
 ## What belongs here?
 
-Add an entry for a recompiled port you made or found. Include the project’s source repository, the platforms it supports (Windows, macOS, and Linux), the game versions it works with, and any useful identifiers or setup notes. Entries should point to the original project and give credit to its maintainers. If an entry used AI assistance or AI-generated porting work, set `ai_ported` to `true` so the disclosure is explicit.
+Add an entry for a recompiled port you made or found.
 
 This is an index, not a place to host game files. Please don’t submit copyrighted game assets, executables, or other files you don’t have permission to share.
 
@@ -12,10 +12,10 @@ This is an index, not a place to host game files. Please don’t submit copyrigh
 
 1. Copy [`db/example.json`](db/example.json) and fill in the details.
 2. Save it as a new, descriptive JSON file in `db/` (for example, `db/my-game-port.json`).
-3. Set `ai_ported` to `true` if the project relied on AI-assisted or AI-generated porting work; otherwise use `false`.
+3. Set `port.ai_ported` to `true` if the project relied on AI-assisted or AI-generated porting work; otherwise use `false`.
 4. Open a pull request. Keep the fields from the example; if a detail is unknown or doesn’t apply, use `null` or an empty array rather than guessing.
 
-Pull requests that change database entries are automatically checked against [the database schema](.github/schemas/db-entry.schema.json). Please keep entries factual and link to authoritative project pages where possible. Update your entry when platform support or compatibility changes.
+Pull requests that change database entries are automatically checked against [the database schema](.github/schemas/db-entry.schema.json). Please keep entries factual and link to authoritative project pages where possible. Update your entry when supported releases, target platforms, or compatibility changes.
 
 ## Licensing
 

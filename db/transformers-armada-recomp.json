@@ -1,47 +1,86 @@
 {
-  "game_name": "Transformers (PS2, 2004)",
-  "port_name": "Transformers Armada Recomp",
-  "description": "Transformers (PS2, 2004, also known as Transformers Armada: Prelude to Energon) as a native Windows game, made by static recompilation from your own disc, with a native Direct3D 12 renderer, high resolutions up to 4K, ultrawide, high frame rates and HD textures made from your own disc.",
-  "repository_url": "https://github.com/kayliox/transformers-armada-recomp",
-  "project_url": null,
-  "download_url": "https://github.com/kayliox/transformers-armada-recomp/releases/latest",
-  "platforms": [
-    "windows",
-    "linux"
-  ],
-  "supported_game_versions": [
-    "USA (SLUS-20668)",
-    "Europe (SLES-52388), experimental"
-  ],
-  "storefronts": [],
-  "ai_ported": true,
-  "status": "active",
+  "game": {
+    "name": "Transformers (PS2, 2004)",
+    "original_platforms": [
+      {
+        "id": "playstation-2",
+        "name": "PlayStation 2",
+        "releases": [
+          {
+            "id": "ps2-usa",
+            "region": "USA",
+            "version": "2004",
+            "identifiers": [
+              "SLUS-20668"
+            ],
+            "storefronts": [],
+            "notes": null
+          },
+          {
+            "id": "ps2-europe",
+            "region": "Europe",
+            "version": "2004",
+            "identifiers": [
+              "SLES-52388"
+            ],
+            "storefronts": [],
+            "notes": null
+          }
+        ]
+      }
+    ]
+  },
+  "port": {
+    "name": "Transformers Armada Recomp",
+    "description": "Transformers (PS2, 2004, also known as Transformers Armada: Prelude to Energon) as a native Windows game, made by static recompilation from your own disc, with a native Direct3D 12 renderer, high resolutions up to 4K, ultrawide, high frame rates and HD textures made from your own disc.",
+    "repository_url": "https://github.com/kayliox/transformers-armada-recomp",
+    "project_url": null,
+    "download_url": "https://github.com/kayliox/transformers-armada-recomp/releases/latest",
+    "target_platforms": [
+      "windows",
+      "linux"
+    ],
+    "supported_game_releases": [
+      {
+        "release_id": "ps2-usa",
+        "status": "supported",
+        "notes": null
+      },
+      {
+        "release_id": "ps2-europe",
+        "status": "experimental",
+        "notes": null
+      }
+    ],
+    "ai_ported": true,
+    "status": "active",
+    "requirements": [
+      "Windows 10 or 11, 64-bit",
+      "A graphics card with DirectX 12 and Vulkan",
+      "Your own disc image (.iso) of Transformers for the PS2"
+    ],
+    "installation_notes": "Download the setup from the releases page, run it, pick your own disc image and an install folder, then press Install. The setup contains no game data: it builds the game on your PC from your disc.",
+    "license": "GPL-3.0",
+    "maintainers": [
+      "kayliox"
+    ],
+    "last_verified": "2026-11-13",
+    "notes": null
+  },
   "compatibility": {
     "status": "working",
     "tested_environments": [
       {
-        "platform": "windows",
+        "os": "windows",
         "version": "11",
         "architecture": "x86_64"
       },
       {
-        "platform": "windows",
+        "os": "windows",
         "version": "10",
         "architecture": "x86_64"
       }
     ],
     "notes": "The whole game is playable from start to finish. A native Linux and Steam Deck version is also available (./setup.sh, ./play.sh)."
-  },
-  "requirements": [
-    "Windows 10 or 11, 64-bit",
-    "A graphics card with DirectX 12 and Vulkan",
-    "Your own disc image (.iso) of Transformers for the PS2"
-  ],
-  "installation_notes": "Download the setup from the releases page, run it, pick your own disc image and an install folder, then press Install. The setup contains no game data: it builds the game on your PC from your disc.",
-  "license": "GPL-3.0",
-  "maintainers": [
-    "kayliox"
-  ],
-  "last_verified": "2026-11-13",
-  "notes": null
+  }
 }

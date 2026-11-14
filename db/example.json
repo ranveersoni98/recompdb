@@ -1,42 +1,60 @@
 {
-  "game_name": "Example Game",
-  "port_name": "Example Recompiled Port",
-  "description": "A short description of the recompiled port.",
-  "repository_url": "https://github.com/example/example-port",
-  "project_url": null,
-  "download_url": null,
-  "platforms": [
-    "windows",
-    "macos",
-    "linux"
-  ],
-  "supported_game_versions": [
-    "Example version or range"
-  ],
-  "storefronts": [
-    {
-      "name": "Steam",
-      "id": "123456"
-    }
-  ],
-  "ai_ported": false,
-  "status": "active",
+  "game": {
+    "name": "Example Game",
+    "original_platforms": [
+      {
+        "id": "playstation-2",
+        "name": "PlayStation 2",
+        "releases": [
+          {
+            "id": "ps2-example-release",
+            "region": "Example region",
+            "version": "Example version",
+            "identifiers": [],
+            "storefronts": [],
+            "notes": null
+          }
+        ]
+      }
+    ]
+  },
+  "port": {
+    "name": "Example Recompiled Port",
+    "description": "A short description of the recompiled port.",
+    "repository_url": "https://github.com/example/example-port",
+    "project_url": null,
+    "download_url": null,
+    "target_platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "supported_game_releases": [
+      {
+        "release_id": "ps2-example-release",
+        "status": "supported",
+        "notes": null
+      }
+    ],
+    "ai_ported": false,
+    "status": "active",
+    "requirements": [],
+    "installation_notes": null,
+    "license": null,
+    "maintainers": [],
+    "last_verified": null,
+    "notes": null
+  },
   "compatibility": {
     "status": "working",
     "tested_environments": [
       {
-        "platform": "windows",
+        "os": "windows",
         "version": "11",
         "architecture": "x86_64",
         "min_fps": 0
       }
     ],
     "notes": null
-  },
-  "requirements": [],
-  "installation_notes": null,
-  "license": null,
-  "maintainers": [],
-  "last_verified": null,
-  "notes": null
+  }
 }
