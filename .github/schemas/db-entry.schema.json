@@ -50,7 +50,7 @@
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["windows", "macos"]
+        "enum": ["windows", "macos", "linux"]
       },
       "uniqueItems": true
     },
@@ -100,7 +100,7 @@
             "properties": {
               "platform": {
                 "type": "string",
-                "enum": ["windows", "macos"]
+                "enum": ["windows", "macos", "linux", "android", "ios", "other"]
               },
               "version": {
                 "type": "string",

@@ -4,7 +4,7 @@ A community-maintained directory of recompiled game ports. People are making por
 
 ## What belongs here?
 
-Add an entry for a recompiled port you made or found. Include the project’s source repository, the platforms it supports, the game versions it works with, and any useful identifiers or setup notes. Entries should point to the original project and give credit to its maintainers.
+Add an entry for a recompiled port you made or found. Include the project’s source repository, the platforms it supports (Windows, macOS, and Linux), the game versions it works with, and any useful identifiers or setup notes. Entries should point to the original project and give credit to its maintainers.
 
 This is an index, not a place to host game files. Please don’t submit copyrighted game assets, executables, or other files you don’t have permission to share.
 

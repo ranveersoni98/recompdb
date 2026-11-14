@@ -6,7 +6,8 @@
   "project_url": null,
   "download_url": "https://github.com/kayliox/transformers-armada-recomp/releases/latest",
   "platforms": [
-    "windows"
+    "windows",
+    "linux"
   ],
   "supported_game_versions": [
     "USA (SLUS-20668)",
@@ -28,7 +29,7 @@
         "architecture": "x86_64"
       }
     ],
-    "notes": "The whole game is playable from start to finish. A native Linux and Steam Deck version is also available (./setup.sh, ./play.sh); this database lists only Windows and macOS as platforms."
+    "notes": "The whole game is playable from start to finish. A native Linux and Steam Deck version is also available (./setup.sh, ./play.sh)."
   },
   "requirements": [
     "Windows 10 or 11, 64-bit",
